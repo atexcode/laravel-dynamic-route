@@ -1,0 +1,34 @@
+{
+    "name": "atexcode/laravel-dynamic-route",
+    "description": "A dynamic routing library for Laravel that brings back implicit controller routes, automatically mapping methods to routes with support for parameters.",
+    "type": "library",
+    "keywords": [
+        "dynamic",
+        "route",
+        "laravel",
+        "implicit",
+        "controller",
+        "parameters",
+        "autoroutes",
+        "php",
+        "atexcode"
+    ],
+    "homepage": "http://github.com/atexcode/laravel-dynamic-route",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Muhammad Athar",
+            "email": "athar.techs@gmail.com",
+            "homepage": "https://atexcode.com",
+            "role": "Full Stack Software & Web Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/DynamicRoute.php"
+        ]
+    },
+    "require": {
+        "laravel/framework": "8.*|9.*|10.*|11.*|12.*|^13.0"
+    }
+}
