@@ -14,7 +14,7 @@
         "atexcode"
     ],
     "homepage": "http://github.com/atexcode/laravel-dynamic-route",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "Muhammad Athar",
