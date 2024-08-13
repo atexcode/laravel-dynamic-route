@@ -3,6 +3,7 @@
 class DynamicRoute
 {
     private static $httpMethods = ['any', 'get', 'post', 'put', 'patch', 'delete'];
+    private const EMIT_ROUTE_STATEMENTS = false;
 
     /**
      * Main entry point to register routes dynamically for a given controller.
