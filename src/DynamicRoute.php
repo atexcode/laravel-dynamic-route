@@ -82,6 +82,11 @@ class DynamicRoute
         }
 
         foreach ($method->getParameters() as $parameter) {
+            // Skip the parameter if it is of type Request
+            if ($parameter->hasType() && $parameter->getType()->getName() === 'Illuminate\\Http\\Request') {
+                continue;
+            }
+
             $slug .= sprintf('/{%s%s}', self::getParameterName($parameter), $parameter->isDefaultValueAvailable() ? '?' : '');
         }
 
