@@ -1,13 +1,12 @@
 {
     "name": "atexcode/laravel-dynamic-route",
-    "description": "A dynamic routing library for Laravel that brings back implicit controller routes, automatically mapping methods to routes with support for parameters.",
+    "description": "Dynamic route class for Laravel - restoring implicit controllers to the framework.",
     "type": "library",
     "keywords": [
         "dynamic",
         "route",
+        "advanced",
         "laravel",
-        "implicit",
-        "controller",
         "parameters",
         "autoroutes",
         "php",
@@ -24,11 +23,13 @@
         }
     ],
     "autoload": {
-        "files": [
-            "src/DynamicRoute.php"
-        ]
+        "psr-4": {
+            "Atexcode\\DynamicRoute\\": "src/"
+        }
     },
     "require": {
-        "laravel/framework": "8.*|9.*|10.*|11.*|12.*|^13.0"
-    }
+        "laravel/framework": "^8.*|^9.*|^10.*|^11.*|^12.*"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
