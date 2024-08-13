@@ -24,7 +24,7 @@
     ],
     "autoload": {
         "files": [
-            "src/AdvancedRoute.php"
+            "src/DynamicRoute.php"
         ]
     },
     "require": {
